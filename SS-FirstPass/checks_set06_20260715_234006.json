@@ -1,0 +1,259 @@
+{
+  "timestamp": "20260715_234006",
+  "set": "06",
+  "checks": "141-160",
+  "description": "Numerical stability, optimization and geodesic lines",
+  "total": 20,
+  "passed": 16,
+  "failed": 4,
+  "results": [
+    {
+      "check_id": 141,
+      "name": "Jacobian at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 142,
+      "name": "Jacobian at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": true,
+      "value": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 143,
+      "name": "Jacobian at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          -1.1102230246251563,
+          0.0
+        ]
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 144,
+      "name": "Jacobian at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": true,
+      "value": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.1102230246251563,
+          0.0
+        ]
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 145,
+      "name": "p_\u03bcp^\u03bc=0 at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": false,
+      "value": [
+        -0.9495380059483188,
+        1.615331776949991,
+        1.615331776949991,
+        0.6657937710016723
+      ],
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 146,
+      "name": "p_\u03bcp^\u03bc=0 at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": false,
+      "value": [
+        -0.6877709017474312,
+        3.040568675660601,
+        3.040568675660601,
+        2.352695867311411
+      ],
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 147,
+      "name": "p_\u03bcp^\u03bc=0 at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": false,
+      "value": [
+        11.334266404155336,
+        3.531572533604061,
+        3.531572533604061,
+        7.94143633186056
+      ],
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 148,
+      "name": "p_\u03bcp^\u03bc=0 at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": false,
+      "value": [
+        -0.6158534521264928,
+        4.167026079850599,
+        4.167026079850599,
+        3.5511016500813906
+      ],
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 149,
+      "name": "Optimization gradient at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": {
+        "dx": 0.005760175669777823,
+        "dy": 0.005760175669777823,
+        "dz": 0.005760175669777823
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 150,
+      "name": "Optimization gradient at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": true,
+      "value": {
+        "dx": -0.12826733009063673,
+        "dy": -0.12826733009063673,
+        "dz": -0.12826733009063673
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 151,
+      "name": "Optimization gradient at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": {
+        "dx": -0.16631371280162455,
+        "dy": -0.16631371280162455,
+        "dz": -0.16631371280162455
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 152,
+      "name": "Optimization gradient at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": true,
+      "value": {
+        "dx": -0.16390411805566885,
+        "dy": -0.16390411805566885,
+        "dz": -0.16390411805566885
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 153,
+      "name": "Regularization at r\u21920 (\u0431\u043b\u0438\u0437\u043e \u0434\u043e 0)",
+      "passed": true,
+      "value": {
+        "Phi": -0.20480096061623387,
+        "g_tt": -0.9495380059866054,
+        "g_xx": 1.6153317767638993
+      },
+      "expected": "finite (no NaN/ZeroDivision)",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 154,
+      "name": "Regularization at r\u21920 (\u043c\u043d\u043e\u0433\u043e \u0431\u043b\u0438\u0437\u043e \u0434\u043e 0)",
+      "passed": true,
+      "value": {
+        "Phi": -0.20480096067325962,
+        "g_tt": -0.9495380059487017,
+        "g_xx": 1.6153317769481301
+      },
+      "expected": "finite (no NaN/ZeroDivision)",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 155,
+      "name": "Regularization at r\u21920 (\u0442\u043e\u0447\u043d\u043e 0)",
+      "passed": true,
+      "value": {
+        "Phi": -0.20480096067383563,
+        "g_tt": -0.9495380059483188,
+        "g_xx": 1.615331776949991
+      },
+      "expected": "finite (no NaN/ZeroDivision)",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 156,
+      "name": "Regularization at r\u21920 (\u0434\u0438\u0430\u0433\u043e\u043d\u0430\u043b \u0431\u043b\u0438\u0437\u043e \u0434\u043e 0)",
+      "passed": true,
+      "value": {
+        "Phi": -0.20480096067382988,
+        "g_tt": -0.9495380059483227,
+        "g_xx": 1.6153317769499724
+      },
+      "expected": "finite (no NaN/ZeroDivision)",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 157,
+      "name": "Lapse \u03b1 > 0 at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": 0.9744424077123895,
+      "expected": "> 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 158,
+      "name": "Lapse \u03b1 > 0 at \u0433\u0440\u0430\u043d\u0438\u0446\u0430 x (5.0,0,0)",
+      "passed": true,
+      "value": 0.6660861958103949,
+      "expected": "> 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 159,
+      "name": "Lapse \u03b1 > 0 at \u0433\u0440\u0430\u043d\u0438\u0446\u0430 y (0,5.0,0)",
+      "passed": true,
+      "value": 0.6660861958103949,
+      "expected": "> 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 160,
+      "name": "Lapse \u03b1 > 0 at \u044a\u0433\u044a\u043b (5.0,5.0,5.0)",
+      "passed": true,
+      "value": 0.511372817185738,
+      "expected": "> 0",
+      "tolerance": 1e-06
+    }
+  ]
+}

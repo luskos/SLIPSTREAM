@@ -1,0 +1,331 @@
+{
+  "timestamp": "20260715_232208",
+  "set": "01",
+  "checks": "1-40",
+  "description": "Geometric and metric tests",
+  "total": 35,
+  "passed": 30,
+  "failed": 5,
+  "results": [
+    {
+      "check_id": 1,
+      "name": "Signature at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "expected": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 2,
+      "name": "Signature at \u0441\u0442\u0435\u043d\u0430 (2,0,0)",
+      "passed": false,
+      "value": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "expected": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 3,
+      "name": "Signature at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (4,0,0)",
+      "passed": true,
+      "value": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "expected": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 4,
+      "name": "Signature at \u044a\u0433\u044a\u043b (4.9,4.9,4.9)",
+      "passed": true,
+      "value": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "expected": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 5,
+      "name": "Determinant at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": -4.002188707934778,
+      "expected": "finite and non-zero",
+      "tolerance": 1e-10
+    },
+    {
+      "check_id": 6,
+      "name": "Determinant at \u0441\u0442\u0435\u043d\u0430 (2,0,0)",
+      "passed": true,
+      "value": 349.72680712156273,
+      "expected": "finite and non-zero",
+      "tolerance": 1e-10
+    },
+    {
+      "check_id": 7,
+      "name": "Determinant at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (4,0,0)",
+      "passed": true,
+      "value": -188.01165573631008,
+      "expected": "finite and non-zero",
+      "tolerance": 1e-10
+    },
+    {
+      "check_id": 8,
+      "name": "Determinant at \u044a\u0433\u044a\u043b (4.9,4.9,4.9)",
+      "passed": true,
+      "value": -24090.29392585265,
+      "expected": "finite and non-zero",
+      "tolerance": 1e-10
+    },
+    {
+      "check_id": 9,
+      "name": "Inverse metric at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": "invertible",
+      "expected": "invertible",
+      "tolerance": 1e-08
+    },
+    {
+      "check_id": 10,
+      "name": "Inverse metric at \u0441\u0442\u0435\u043d\u0430 (2,0,0)",
+      "passed": true,
+      "value": "invertible",
+      "expected": "invertible",
+      "tolerance": 1e-08
+    },
+    {
+      "check_id": 11,
+      "name": "Inverse metric at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (4,0,0)",
+      "passed": true,
+      "value": "invertible",
+      "expected": "invertible",
+      "tolerance": 1e-08
+    },
+    {
+      "check_id": 12,
+      "name": "Inverse metric at \u044a\u0433\u044a\u043b (4.9,4.9,4.9)",
+      "passed": true,
+      "value": "invertible",
+      "expected": "invertible",
+      "tolerance": 1e-08
+    },
+    {
+      "check_id": 13,
+      "name": "Four-velocity norm at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": -0.9999999999999998,
+      "expected": -1,
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 14,
+      "name": "Four-velocity norm at \u0441\u0442\u0435\u043d\u0430 (2,0,0)",
+      "passed": false,
+      "value": 45.50149669443149,
+      "expected": -1,
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 15,
+      "name": "Four-velocity norm at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (4,0,0)",
+      "passed": true,
+      "value": -1.0,
+      "expected": -1,
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 16,
+      "name": "Four-velocity norm at \u044a\u0433\u044a\u043b (4.9,4.9,4.9)",
+      "passed": true,
+      "value": -1.0,
+      "expected": -1,
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 34,
+      "name": "Christoffel \u0393^t_tx at (0,0,0)",
+      "passed": true,
+      "value": 0.001967194718027343,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 35,
+      "name": "Christoffel \u0393^t_tx at (2,0,0)",
+      "passed": true,
+      "value": -0.5423317231112198,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 36,
+      "name": "Christoffel \u0393^t_tx at (4,0,0)",
+      "passed": true,
+      "value": -0.06748872093770034,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 25,
+      "name": "Ricci R_tt at (0,0,0)",
+      "passed": true,
+      "value": -7585898.278818176,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 26,
+      "name": "Ricci R_tt at (2,0,0)",
+      "passed": true,
+      "value": 0.24819337696158073,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 27,
+      "name": "Ricci R_tt at (4,0,0)",
+      "passed": true,
+      "value": -0.014263085157395494,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 28,
+      "name": "Ricci R_tt at (4.9,4.9,4.9)",
+      "passed": true,
+      "value": -0.0018708784521592747,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 29,
+      "name": "Covariant constancy in direction (1,0,0)",
+      "passed": false,
+      "value": 0.7598469415073021,
+      "expected": 0,
+      "tolerance": 0.001
+    },
+    {
+      "check_id": 30,
+      "name": "Covariant constancy in direction (0,1,0)",
+      "passed": true,
+      "value": 0.0,
+      "expected": 0,
+      "tolerance": 0.001
+    },
+    {
+      "check_id": 31,
+      "name": "Covariant constancy in direction (0,0,1)",
+      "passed": true,
+      "value": 0.0,
+      "expected": 0,
+      "tolerance": 0.001
+    },
+    {
+      "check_id": 32,
+      "name": "Covariant constancy in direction (1,1,1)",
+      "passed": false,
+      "value": 0.7598469414211036,
+      "expected": 0,
+      "tolerance": 0.001
+    },
+    {
+      "check_id": 33,
+      "name": "Ricci R_xx at (0,0,0)",
+      "passed": true,
+      "value": -25899918.132933773,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 34,
+      "name": "Ricci R_xx at (2,0,0)",
+      "passed": true,
+      "value": -0.5607517117312,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 35,
+      "name": "Ricci R_xx at (4,0,0)",
+      "passed": true,
+      "value": -1.2053178011228738,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 36,
+      "name": "Ricci R_xx at (4.9,4.9,4.9)",
+      "passed": true,
+      "value": -4.1442163478677685,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 37,
+      "name": "Ricci scalar at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": -46270526.45746487,
+      "expected": "finite",
+      "tolerance": 0.001
+    },
+    {
+      "check_id": 38,
+      "name": "Ricci scalar at \u0441\u0442\u0435\u043d\u0430 (2,0,0)",
+      "passed": true,
+      "value": -0.4360611818783783,
+      "expected": "finite",
+      "tolerance": 0.001
+    },
+    {
+      "check_id": 39,
+      "name": "Ricci scalar at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (4.5,0,0)",
+      "passed": true,
+      "value": -0.2671784776239212,
+      "expected": "finite",
+      "tolerance": 0.001
+    },
+    {
+      "check_id": 40,
+      "name": "Ricci scalar at \u0431\u0435\u0437\u043a\u0440\u0430\u0439\u043d\u043e\u0441\u0442 (\u0430\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u043d\u043e) (100,0,0)",
+      "passed": false,
+      "value": -0.101542574369557,
+      "expected": 0,
+      "tolerance": 0.001
+    }
+  ]
+}

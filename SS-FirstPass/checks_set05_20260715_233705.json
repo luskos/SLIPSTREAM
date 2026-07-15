@@ -1,0 +1,231 @@
+{
+  "timestamp": "20260715_233705",
+  "set": "05",
+  "checks": "121-140",
+  "description": "Thin-Shell and Israel junction conditions",
+  "total": 20,
+  "passed": 16,
+  "failed": 4,
+  "results": [
+    {
+      "check_id": 121,
+      "name": "Metric continuity at \u0435\u043a\u0432\u0430\u0442\u043e\u0440 (\u03b8=0.00, \u03c6=1.57)",
+      "passed": false,
+      "value": 2.531572533604061,
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 122,
+      "name": "Metric continuity at \u043f\u043e\u043b\u044e\u0441 (\u03b8=1.57, \u03c6=1.57)",
+      "passed": false,
+      "value": 2.531572533604061,
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 123,
+      "name": "Metric continuity at \u0434\u0438\u0430\u0433\u043e\u043d\u0430\u043b (\u03b8=0.79, \u03c6=0.79)",
+      "passed": false,
+      "value": 2.531572533603496,
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 124,
+      "name": "Metric continuity at \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u043b\u043d\u0430 (\u03b8=1.05, \u03c6=0.52)",
+      "passed": false,
+      "value": 2.531572533604061,
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 125,
+      "name": "Extrinsic curvature K_ij^+ at \u0432\u044a\u043d\u0448\u043d\u0430 \u0441\u0442\u0435\u043d\u0430 (2.1,0,0)",
+      "passed": true,
+      "value": {
+        "K_xx": 0.0018273826896120227,
+        "K_yy": -0.07968843362959888,
+        "K_zz": -0.07968843362959888
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 126,
+      "name": "Extrinsic curvature K_ij^+ at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": true,
+      "value": {
+        "K_xx": -0.009926937050153128,
+        "K_yy": -0.06556166720628198,
+        "K_zz": -0.06556166720628198
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 127,
+      "name": "Extrinsic curvature K_ij^+ at \u0434\u0430\u043b\u0435\u0447 (3.0,0,0)",
+      "passed": true,
+      "value": {
+        "K_xx": -0.02727902348453881,
+        "K_yy": -0.05922047296991195,
+        "K_zz": -0.05922047296991195
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 128,
+      "name": "Extrinsic curvature K_ij^+ at \u043e\u0444-\u043e\u0441 \u0432\u044a\u043d\u0448\u043d\u0430 (2.1,1.5,0)",
+      "passed": true,
+      "value": {
+        "K_xx": -0.035305602885671306,
+        "K_yy": -0.04935811759310127,
+        "K_zz": -0.06399616392371854
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 129,
+      "name": "Extrinsic curvature K_ij^- at \u0432\u044a\u0442\u0440\u0435\u0448\u043d\u0430 \u0441\u0442\u0435\u043d\u0430 (1.9,0,0)",
+      "passed": true,
+      "value": {
+        "K_xx": -0.055176796465161715,
+        "K_yy": -0.0854508908076923,
+        "K_zz": -0.0854508908076923
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 130,
+      "name": "Extrinsic curvature K_ij^- at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": true,
+      "value": {
+        "K_xx": -0.07450706718259426,
+        "K_yy": -0.08551155339375782,
+        "K_zz": -0.08551155339375782
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 131,
+      "name": "Extrinsic curvature K_ij^- at \u0432\u044a\u0442\u0440\u0435\u0448\u043d\u043e\u0441\u0442 (1.0,0,0)",
+      "passed": true,
+      "value": {
+        "K_xx": 0.22283297429481763,
+        "K_yy": -0.15092076477429828,
+        "K_zz": -0.15092076477429828
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 132,
+      "name": "Extrinsic curvature K_ij^- at \u043e\u0444-\u043e\u0441 \u0432\u044a\u0442\u0440\u0435\u0448\u043d\u0430 (1.9,1.5,0)",
+      "passed": true,
+      "value": {
+        "K_xx": -0.02483364625049944,
+        "K_yy": -0.040935865808222616,
+        "K_zz": -0.06757554515957054
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 133,
+      "name": "Jump [K_ij] at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u043a\u0440\u0430\u0439 \u043d\u0430 \u0441\u0442\u0435\u043d\u0430\u0442\u0430 (1.95,0,0)",
+      "passed": true,
+      "value": {
+        "jump_xx": 0.0063048455345438015,
+        "jump_yy": 0.00046072035075894746,
+        "jump_zz": 0.00046072035075894746
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 134,
+      "name": "Jump [K_ij] at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": {
+        "jump_xx": 0.00599910121579228,
+        "jump_yy": 0.0005908606937055083,
+        "jump_zz": 0.0005908606937055083
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 135,
+      "name": "Jump [K_ij] at \u0432\u044a\u043d\u0448\u0435\u043d \u043a\u0440\u0430\u0439 \u043d\u0430 \u0441\u0442\u0435\u043d\u0430\u0442\u0430 (2.05,0,0)",
+      "passed": true,
+      "value": {
+        "jump_xx": 0.005235190059238448,
+        "jump_yy": 0.0006985079181731635,
+        "jump_zz": 0.0006985079181731635
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 136,
+      "name": "Jump [K_ij] at \u0441\u0442\u0435\u043d\u0430 \u043e\u0444-\u043e\u0441 (2.0,1.0,0)",
+      "passed": true,
+      "value": {
+        "jump_xx": 0.0006494027537939928,
+        "jump_yy": 0.00034457992015290984,
+        "jump_zz": 0.0007284617353775502
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 137,
+      "name": "Shell stability at \u0432\u044a\u0442\u0440\u0435\u0448\u043d\u0430 \u0441\u0442\u0435\u043d\u0430 (1.8,0,0)",
+      "passed": true,
+      "value": {
+        "pressure": -5.782411586589357e-19,
+        "stable": true
+      },
+      "expected": "stable and finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 138,
+      "name": "Shell stability at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": {
+        "pressure": -5.782411586589357e-19,
+        "stable": true
+      },
+      "expected": "stable and finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 139,
+      "name": "Shell stability at \u0432\u044a\u043d\u0448\u043d\u0430 \u0441\u0442\u0435\u043d\u0430 (2.2,0,0)",
+      "passed": true,
+      "value": {
+        "pressure": -8.673617379884035e-19,
+        "stable": true
+      },
+      "expected": "stable and finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 140,
+      "name": "Shell stability at \u0441\u0442\u0435\u043d\u0430 \u043e\u0444-\u043e\u0441 (2.0,1.5,0)",
+      "passed": true,
+      "value": {
+        "pressure": -1.807003620809174e-20,
+        "stable": true
+      },
+      "expected": "stable and finite",
+      "tolerance": 1e-06
+    }
+  ]
+}

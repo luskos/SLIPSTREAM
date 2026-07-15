@@ -1,0 +1,215 @@
+{
+  "timestamp": "20260715_233055",
+  "set": "04",
+  "checks": "101-120",
+  "description": "Born-Infeld nonlinear electromagnetic sector",
+  "total": 20,
+  "passed": 18,
+  "failed": 2,
+  "results": [
+    {
+      "check_id": 101,
+      "name": "E < b_BI at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": {
+        "E": 3.7204480021264507e-44,
+        "b_BI": 2.31927122395741
+      },
+      "expected": "E < b_BI",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 102,
+      "name": "E < b_BI at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": true,
+      "value": {
+        "E": 0.001930454136227711,
+        "b_BI": 2.31927122395741
+      },
+      "expected": "E < b_BI",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 103,
+      "name": "E < b_BI at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": {
+        "E": 1.0,
+        "b_BI": 2.31927122395741
+      },
+      "expected": "E < b_BI",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 104,
+      "name": "E < b_BI at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": true,
+      "value": {
+        "E": 0.001930454136227711,
+        "b_BI": 2.31927122395741
+      },
+      "expected": "E < b_BI",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 105,
+      "name": "BI Lagrangian reality at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": {
+        "\u2112_BI": 0.0,
+        "radicand": 1.0
+      },
+      "expected": "radicand > 0 and \u2112_BI finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 106,
+      "name": "BI Lagrangian reality at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": true,
+      "value": {
+        "\u2112_BI": -1.8633262633656411e-06,
+        "radicand": 1.0000006928127907
+      },
+      "expected": "radicand > 0 and \u2112_BI finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 107,
+      "name": "BI Lagrangian reality at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": {
+        "\u2112_BI": -0.47869936151233944,
+        "radicand": 1.1859075043403726
+      },
+      "expected": "radicand > 0 and \u2112_BI finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 108,
+      "name": "BI Lagrangian reality at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": true,
+      "value": {
+        "\u2112_BI": -1.8633262633656411e-06,
+        "radicand": 1.0000006928127907
+      },
+      "expected": "radicand > 0 and \u2112_BI finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 109,
+      "name": "BI Maxwell (Gauss) at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": 0.0,
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 110,
+      "name": "BI Maxwell (Gauss) at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": false,
+      "value": 0.04826139161259323,
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 111,
+      "name": "BI Maxwell (Gauss) at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": 0.0,
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 112,
+      "name": "BI Maxwell (Gauss) at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": false,
+      "value": -0.04826139161270381,
+      "expected": "\u2248 0",
+      "tolerance": 0.0001
+    },
+    {
+      "check_id": 113,
+      "name": "BI T_ij symmetry at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": {
+        "T00": -0.0,
+        "T11": -0.0,
+        "T22": -0.0,
+        "T33": -0.0
+      },
+      "expected": "symmetric and finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 114,
+      "name": "BI T_ij symmetry at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": true,
+      "value": {
+        "T00": 1.8633262633656411e-06,
+        "T11": 6.211087544552137e-07,
+        "T22": 6.211087544552137e-07,
+        "T33": 6.211087544552137e-07
+      },
+      "expected": "symmetric and finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 115,
+      "name": "BI T_ij symmetry at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": {
+        "T00": 0.47869936151233944,
+        "T11": 0.15956645383744647,
+        "T22": 0.15956645383744647,
+        "T33": 0.15956645383744647
+      },
+      "expected": "symmetric and finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 116,
+      "name": "BI T_ij symmetry at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": true,
+      "value": {
+        "T00": 1.8633262633656411e-06,
+        "T11": 6.211087544552137e-07,
+        "T22": 6.211087544552137e-07,
+        "T33": 6.211087544552137e-07
+      },
+      "expected": "symmetric and finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 117,
+      "name": "BI vacuum birefringence at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": 0.0,
+      "expected": "finite and real",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 118,
+      "name": "BI vacuum birefringence at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": true,
+      "value": 0.0008323537653926245,
+      "expected": "finite and real",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 119,
+      "name": "BI vacuum birefringence at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": 0.4311699251343635,
+      "expected": "finite and real",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 120,
+      "name": "BI vacuum birefringence at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": true,
+      "value": 0.0008323537653926245,
+      "expected": "finite and real",
+      "tolerance": 1e-06
+    }
+  ]
+}
