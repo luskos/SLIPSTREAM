@@ -1,0 +1,430 @@
+{
+  "timestamp": "20260716_002833",
+  "set": "02",
+  "version": "SecondPass",
+  "checks": "41-80",
+  "description": "Energy conditions",
+  "parameters": {
+    "L": 5.0,
+    "NN": 41,
+    "v": 0.3,
+    "R0": 2.0,
+    "Aw": 0.020760530018065822,
+    "wW": 0.43623243995054584,
+    "Ad": 0.0020956805839486637,
+    "wD": 1.4905151397676861,
+    "epsBD": 0.036752574849167816,
+    "wBD": 0.672811842653521,
+    "omegaBD": 10,
+    "bBI": 0.47521655715064004,
+    "wshell": 0.6126709227110756,
+    "epsilon": 1e-06,
+    "sigma": 25.0,
+    "warpAmp": 22.0
+  },
+  "total": 40,
+  "passed": 40,
+  "failed": 0,
+  "results": [
+    {
+      "check_id": 41,
+      "name": "NEC for null vector x",
+      "passed": true,
+      "value": [
+        0.001944617070621262,
+        0.00041317081464020407,
+        0.00031145631129413554
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 42,
+      "name": "NEC for null vector y",
+      "passed": true,
+      "value": [
+        0.00192954400383143,
+        0.000411961753924873,
+        0.00031112517010588694
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 43,
+      "name": "NEC for null vector z",
+      "passed": true,
+      "value": [
+        0.00192954400383143,
+        0.000411961753924873,
+        0.00031112517010588694
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 44,
+      "name": "NEC for null vector x+y",
+      "passed": true,
+      "value": [
+        0.0012123639007779504,
+        0.00025794736575532036,
+        0.0001945757768791873
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 45,
+      "name": "NEC for null vector x-y",
+      "passed": true,
+      "value": [
+        0.0012123639007779504,
+        0.00025794736575532036,
+        0.0001945757768791873
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 46,
+      "name": "NEC for null vector x+z",
+      "passed": true,
+      "value": [
+        0.0012123639007779504,
+        0.00025794736575532036,
+        0.0001945757768791873
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 47,
+      "name": "NEC for null vector y+z",
+      "passed": true,
+      "value": [
+        0.001207658679710216,
+        0.0002575698130189962,
+        0.00019447232997514048
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 48,
+      "name": "NEC for null vector x+y+z",
+      "passed": true,
+      "value": [
+        0.0009690879847714329,
+        0.00020628216568672437,
+        0.00015563812313681654
+      ],
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 49,
+      "name": "WEC at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": {
+        "rho": 2.444649290805841,
+        "rho+p": 3.259532387741121
+      },
+      "expected": "rho \u2265 0 and rho+p \u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 50,
+      "name": "WEC at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": true,
+      "value": {
+        "rho": 0.33618781844739754,
+        "rho+p": 0.44825042459653003
+      },
+      "expected": "rho \u2265 0 and rho+p \u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 51,
+      "name": "WEC at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": {
+        "rho": 0.1436920022291956,
+        "rho+p": 0.19158933630559413
+      },
+      "expected": "rho \u2265 0 and rho+p \u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 52,
+      "name": "WEC at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": true,
+      "value": {
+        "rho": 0.23855337810395955,
+        "rho+p": 0.3180711708052794
+      },
+      "expected": "rho \u2265 0 and rho+p \u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 53,
+      "name": "WEC at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (4.0,0,0)",
+      "passed": true,
+      "value": {
+        "rho": 0.013629498367987847,
+        "rho+p": 0.018172664490650463
+      },
+      "expected": "rho \u2265 0 and rho+p \u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 54,
+      "name": "WEC at \u043e\u0444-\u043e\u0441 (0,1.5,1.5)",
+      "passed": true,
+      "value": {
+        "rho": 0.13990281495225515,
+        "rho+p": 0.18653708660300686
+      },
+      "expected": "rho \u2265 0 and rho+p \u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 55,
+      "name": "WEC at \u0441\u0442\u0435\u043d\u0430 \u043e\u0444-\u043e\u0441 (2.0,1.5,0)",
+      "passed": true,
+      "value": {
+        "rho": 0.23855337784571626,
+        "rho+p": 0.318071170460955
+      },
+      "expected": "rho \u2265 0 and rho+p \u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 56,
+      "name": "WEC at \u044a\u0433\u044a\u043b (4.5,4.5,0)",
+      "passed": true,
+      "value": {
+        "rho": 1.7918714248556407e-08,
+        "rho+p": 2.3891618998075208e-08
+      },
+      "expected": "rho \u2265 0 and rho+p \u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 57,
+      "name": "SEC at \u043f\u0440\u0435\u0434\u0435\u043d \u0440\u044a\u0431 (-2.5,0,0)",
+      "passed": true,
+      "value": 0.47710675751275583,
+      "expected": "\u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 58,
+      "name": "SEC at \u043f\u0440\u0435\u0434\u043d\u0430 \u0441\u0442\u0435\u043d\u0430 (-2.0,0,0)",
+      "passed": true,
+      "value": 0.28738401867860686,
+      "expected": "\u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 59,
+      "name": "SEC at \u043f\u0440\u0435\u0434\u0435\u043d \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d (-1.5,0,0)",
+      "passed": true,
+      "value": 0.6723757255537693,
+      "expected": "\u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 60,
+      "name": "SEC at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": 4.889298581611682,
+      "expected": "\u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 61,
+      "name": "SEC at \u0437\u0430\u0434\u0435\u043d \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d (1.5,0,0)",
+      "passed": true,
+      "value": 0.6723756368947951,
+      "expected": "\u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 62,
+      "name": "SEC at \u0437\u0430\u0434\u043d\u0430 \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": 0.2873840044583912,
+      "expected": "\u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 63,
+      "name": "SEC at \u0437\u0430\u0434\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": true,
+      "value": 0.4771067562079191,
+      "expected": "\u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 64,
+      "name": "SEC at \u0434\u0430\u043b\u0435\u0447\u0435\u043d \u0437\u0430\u0434\u0435\u043d (3.0,0,0)",
+      "passed": true,
+      "value": 0.40497377536757195,
+      "expected": "\u2265 0",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 65,
+      "name": "DEC at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": {
+        "rho": 2.444649290805841,
+        "|p|": 0.8148830969352803
+      },
+      "expected": "rho \u2265 |p|",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 66,
+      "name": "DEC at \u043e\u0441 x (1,0,0)",
+      "passed": true,
+      "value": {
+        "rho": 0.249829886706885,
+        "|p|": 0.083276628902295
+      },
+      "expected": "rho \u2265 |p|",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 67,
+      "name": "DEC at \u043e\u0441 y (0,1,0)",
+      "passed": true,
+      "value": {
+        "rho": 0.24982996037264324,
+        "|p|": 0.08327665345754774
+      },
+      "expected": "rho \u2265 |p|",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 68,
+      "name": "DEC at \u043e\u0441 z (0,0,1)",
+      "passed": true,
+      "value": {
+        "rho": 0.24982996037264324,
+        "|p|": 0.08327665345754774
+      },
+      "expected": "rho \u2265 |p|",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 69,
+      "name": "DEC at xy (1,1,0)",
+      "passed": true,
+      "value": {
+        "rho": 0.3499672202969684,
+        "|p|": 0.11665574009898948
+      },
+      "expected": "rho \u2265 |p|",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 70,
+      "name": "DEC at xz (1,0,1)",
+      "passed": true,
+      "value": {
+        "rho": 0.3499672202969684,
+        "|p|": 0.11665574009898948
+      },
+      "expected": "rho \u2265 |p|",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 71,
+      "name": "DEC at yz (0,1,1)",
+      "passed": true,
+      "value": {
+        "rho": 0.3499672505764742,
+        "|p|": 0.11665575019215807
+      },
+      "expected": "rho \u2265 |p|",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 72,
+      "name": "DEC at xyz (1,1,1)",
+      "passed": true,
+      "value": {
+        "rho": 0.24302044225211308,
+        "|p|": 0.08100681408403769
+      },
+      "expected": "rho \u2265 |p|",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 73,
+      "name": "Exotic matter integral (\u0446\u044f\u043b \u043e\u0431\u0435\u043c)",
+      "passed": true,
+      "value": -0.018376306354248525,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 74,
+      "name": "Exotic matter integral (\u0441\u0442\u0435\u043d\u0430 (r\u2248R0))",
+      "passed": true,
+      "value": -0.009188153177124262,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 75,
+      "name": "Exotic matter integral (\u0432\u044a\u0442\u0440\u0435\u0448\u043d\u043e\u0441\u0442 (r<R0))",
+      "passed": true,
+      "value": -0.005512891906274557,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 76,
+      "name": "Exotic matter integral (\u0432\u044a\u043d\u0448\u043d\u043e\u0441\u0442 (r>R0))",
+      "passed": true,
+      "value": -0.003675261270849705,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 77,
+      "name": "Covariant conservation in direction (1,0,0)",
+      "passed": true,
+      "value": -0.15677172450906385,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 78,
+      "name": "Covariant conservation in direction (0,1,0)",
+      "passed": true,
+      "value": 0.0,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 79,
+      "name": "Covariant conservation in direction (0,0,1)",
+      "passed": true,
+      "value": 0.0,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 80,
+      "name": "Covariant conservation in direction (1,1,1)",
+      "passed": true,
+      "value": -0.15612920541141495,
+      "expected": "finite",
+      "tolerance": 1e-06
+    }
+  ]
+}

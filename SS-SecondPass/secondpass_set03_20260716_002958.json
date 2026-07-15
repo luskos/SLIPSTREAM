@@ -1,0 +1,206 @@
+{
+  "timestamp": "20260716_002958",
+  "set": "03",
+  "version": "SecondPass",
+  "checks": "81-100",
+  "description": "Brans-Dicke scalar sector",
+  "parameters": {
+    "L": 5.0,
+    "NN": 41,
+    "v": 0.3,
+    "R0": 2.0,
+    "Aw": 0.020760530018065822,
+    "wW": 0.43623243995054584,
+    "Ad": 0.0020956805839486637,
+    "wD": 1.4905151397676861,
+    "epsBD": 0.036752574849167816,
+    "wBD": 0.672811842653521,
+    "omegaBD": 10,
+    "bBI": 0.47521655715064004,
+    "wshell": 0.6126709227110756,
+    "epsilon": 1e-06,
+    "sigma": 25.0,
+    "warpAmp": 22.0
+  },
+  "total": 20,
+  "passed": 20,
+  "failed": 0,
+  "results": [
+    {
+      "check_id": 81,
+      "name": "\u03c6_BD at infinity (\u0434\u0430\u043b\u0435\u0447\u043d\u0430 \u043e\u0441 x)",
+      "passed": true,
+      "value": 1.0,
+      "expected": 1.0,
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 82,
+      "name": "\u03c6_BD at infinity (\u0434\u0430\u043b\u0435\u0447\u043d\u0430 \u043e\u0441 y)",
+      "passed": true,
+      "value": 1.0,
+      "expected": 1.0,
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 83,
+      "name": "\u03c6_BD at infinity (\u0434\u0430\u043b\u0435\u0447\u043d\u0430 \u043e\u0441 z)",
+      "passed": true,
+      "value": 1.0,
+      "expected": 1.0,
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 84,
+      "name": "\u03c6_BD at infinity (\u0434\u0430\u043b\u0435\u0447\u0435\u043d \u044a\u0433\u044a\u043b)",
+      "passed": true,
+      "value": 1.0,
+      "expected": 1.0,
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 85,
+      "name": "Kinetic term at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": 0.0,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 86,
+      "name": "Kinetic term at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": true,
+      "value": 0.5059995473945109,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 87,
+      "name": "Kinetic term at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": 0.0,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 88,
+      "name": "Kinetic term at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": true,
+      "value": 2.232584049411185,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 89,
+      "name": "G_eff for \u03c9_BD = 5",
+      "passed": true,
+      "value": 1.0387464695515738,
+      "expected": "finite and positive",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 90,
+      "name": "G_eff for \u03c9_BD = 10",
+      "passed": true,
+      "value": 1.006487262422643,
+      "expected": "finite and positive",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 91,
+      "name": "G_eff for \u03c9_BD = 20",
+      "passed": true,
+      "value": 0.9869816953214291,
+      "expected": "finite and positive",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 92,
+      "name": "G_eff for \u03c9_BD = 50",
+      "passed": true,
+      "value": 0.9739148591079945,
+      "expected": "finite and positive",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 93,
+      "name": "BD wave equation at \u0446\u0435\u043d\u0442\u044a\u0440 (0,0,0)",
+      "passed": true,
+      "value": {
+        "\u25a1\u03c6": 2.80513186012854,
+        "RHS": 0.12196160325250349,
+        "diff": 2.6831702568760365
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 94,
+      "name": "BD wave equation at \u0432\u044a\u0442\u0440\u0435\u0448\u0435\u043d \u0440\u044a\u0431 (1.5,0,0)",
+      "passed": true,
+      "value": {
+        "\u25a1\u03c6": 0.07208666996660895,
+        "RHS": 0.0035246358974617155,
+        "diff": 0.06856203406914724
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 95,
+      "name": "BD wave equation at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": {
+        "\u25a1\u03c6": -0.16237922118023107,
+        "RHS": -0.006809692408333818,
+        "diff": 0.15556952877189725
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 96,
+      "name": "BD wave equation at \u0432\u044a\u043d\u0448\u0435\u043d \u0440\u044a\u0431 (2.5,0,0)",
+      "passed": true,
+      "value": {
+        "\u25a1\u03c6": -0.027616930964313724,
+        "RHS": -0.0007204921694613576,
+        "diff": 0.026896438794852366
+      },
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 97,
+      "name": "Tachyonic stability at \u0432\u044a\u0442\u0440\u0435\u0448\u043d\u0430 \u0441\u0442\u0435\u043d\u0430 (1.8,0,0)",
+      "passed": true,
+      "value": -0.003758091860444289,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 98,
+      "name": "Tachyonic stability at \u0441\u0442\u0435\u043d\u0430 (2.0,0,0)",
+      "passed": true,
+      "value": -0.006809692408333818,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 99,
+      "name": "Tachyonic stability at \u0432\u044a\u043d\u0448\u043d\u0430 \u0441\u0442\u0435\u043d\u0430 (2.2,0,0)",
+      "passed": true,
+      "value": -0.006284364800019722,
+      "expected": "finite",
+      "tolerance": 1e-06
+    },
+    {
+      "check_id": 100,
+      "name": "Tachyonic stability at \u043e\u0444-\u043e\u0441 \u0441\u0442\u0435\u043d\u0430 (0,1.8,1.8)",
+      "passed": true,
+      "value": -0.0004075099518511434,
+      "expected": "finite",
+      "tolerance": 1e-06
+    }
+  ]
+}
