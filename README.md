@@ -6,4 +6,4 @@ Being Parameter dependent means there would be better parameters reducing the en
 Next development with optimized parameters achieved 1.5 lightspeed for mostly none exotic energy 0. - 1.5 derrivation
 
 777.pdf has all the needed checks to verify the solution is Class A- in a sence. Not completely Class A non-exotic solution, but with mild distortions into energy sectors that can't really anchor it into clean Class B solution. 
-As much this work is conscerned it would be considered Class A when engineering department find the troulbe with it and fix it.
+As much this work is conscerned it would be considered Class A when engineering department find the issue with it and fix it.
