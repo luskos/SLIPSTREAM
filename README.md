@@ -7,3 +7,5 @@ Next development with optimized parameters achieved 1.5 lightspeed for mostly no
 
 777.pdf has all the needed checks to verify the solution is Class A- in a sence. Not completely Class A non-exotic solution, but with mild distortions into energy sectors that can't really anchor it into clean Class B solution. 
 As much this work is conscerned it would be considered Class A when engineering department find the issue with it and fix it.
+
+MGlobal.py - runs all the checks in PaperStankovaWD-Derrivation-2.5ls.nb but in python. Much same math results as close as few decimals to what Wolfram notebook yields but without the visualizations.
