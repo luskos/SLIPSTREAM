@@ -9,3 +9,6 @@ Next development with optimized parameters achieved 1.5 lightspeed for mostly no
 As much this work is conscerned it would be considered Class A when engineering department find the issue with it and fix it.
 
 MGlobal.py - runs all the checks in PaperStankovaWD-Derrivation-2.5ls.nb but in python. Much same math results as close as few decimals to what Wolfram notebook yields but without the visualizations.
+
+Maxwell-Stankova.py - Real-time Field Equation solver running with about 50fps on Lenovo IdeapadGaming3, FTL would require real-time solving of the field equations if the field start failing. Meaning if what is in 777.pdf is just a static one time solve representation > Maxwell-Stankova is the Field solver that you'd need to keep runing while traveling
+in real-time or the Field will collapse. Usual way of solving something like 777 is task-heavy requiring a modern pc about 10min to digest even once.
